@@ -1,0 +1,146 @@
+#page-div {
+  display: flex;
+  justify-content: center;
+}
+#main-div{
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#insta-img{
+  text-align:center;
+  }
+
+#no-acc{
+    border: 2px solid lightgrey;
+    margin-top: 10px;
+  }
+#form-bdr{
+  border: 2px solid lightgrey;
+}
+#footer{
+  border: none;
+  outline:none;
+}
+
+#dash h1{
+  font-family: sans-serif;
+}
+
+
+#button {
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+
+#forgot-ps {
+  font-size: 15px; 
+  margin-bottom: 10px;
+}
+
+#forgot-ps a{
+  color: grey;
+}
+
+
+#button a{
+  text-decoration: none;
+  color: darkblue;
+}
+
+.fill{
+  width: 200px;
+  margin-top: 5px;
+}
+.lgbtn{
+  width: 210px;
+  border:none;
+  font-weight: bolder;
+  font-size: small;
+  background-color: aquamarine;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+#dash h4{
+  position: relative;
+}
+
+#dash h4::after{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+
+#dash h4::before{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right:25%;
+  top: 50%;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  background: darkblue;
+  color: white;
+}
+.fa:hover{
+  cursor: pointer;
+}
+
+
+.container1  {
+  display: inline-flex;
+}
+
+.container1 > div{
+  margin: 10px;
+  padding: 8px;
+  font-size: 12px;
+ 
+}
+
+.container1 > div a{
+  text-decoration: none;
+  color: darkgrey;
+  cursor: pointer;
+}
+
+.container2  {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* margin-left: 300px; */
+}
+
+.container2 > div{
+ 
+  margin: 10px; 
+  padding: 2px;
+  font-size: 12px;
+}
+
+.container2 > div a{
+  text-decoration: none;
+  color: darkgrey;
+  cursor: pointer;
+}
+
+.container3{
+  display: flex;
+  justify-content: center;
+}
+
